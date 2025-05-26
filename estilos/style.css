@@ -15,38 +15,35 @@ html, body{
 
 main{
     position: relative;
-    background-color: white;
-    margin: auto;
-    margin-top: 55px;
-    width: 270px;
-    height: 85vh;
+    width: 100vw;
+    height: 100vh;
     border-radius: 20px;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.445);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.445);
 }
 
-section#dados{
+section#login{
     position: absolute;
-    left: 0%;
-    top: 45%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    width: 250px;
+    height: 500px;
+    overflow: hidden;
 }
 
-section#imagem{
+div#imagem{
     background-image: url(../imagens/metal.jpg);
-    width: 270px;
-    height: 220px;
+    background-color: #5F2C82;
     background-repeat: no-repeat;
+    height: 250px;
+    width: 250px;
     background-size: cover;
     background-position: left bottom;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
 }
 
-section > h1 {
-    text-align: center;
-}
-
-section > p{
-    margin: 10px;
-    font-size: 16px;
-    text-align: justify;
+#formulario{
+    padding: 10px;
 }
