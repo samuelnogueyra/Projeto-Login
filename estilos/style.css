@@ -14,16 +14,16 @@ html, body{
 }
 
 main{
-    position: relative;
     width: 100vw;
     height: 100vh;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.445);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 section#login{
-    position: absolute;
-    left: 50%;
-    top: 50%;
     background-color: white;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
@@ -31,7 +31,6 @@ section#login{
     height: 500px;
     overflow: hidden;
 
-    transform: translate(-50%, -50%);
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
 }
